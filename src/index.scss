@@ -1,0 +1,103 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+$font-primary: 'Rubik', sans-serif;
+
+// COLORS
+:root {
+  --color-primary: #747474;
+  --color-secondary: #082543;
+  --color-tertiary: #38C2D6;
+  --color-light-blue: #6B9FC7;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  // border: solid 2px red;
+}
+
+::-moz-selection {
+  background: var(--color-tertiary);
+  color: var(--color-white);
+}
+
+::selection {
+  background: var(--color-tertiary);
+  color: var(--color-white);
+}
+
+// /* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+html {
+  font-size: 62.5%;
+  // font-size: 58%;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+
+  @media only screen and (max-width: 62.5em) {
+    font-size: 56.25%;
+    // font-size: 51.25%;
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    font-size: 54%;
+    // font-size: 49%;
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    font-size: 51%;
+    // font-size: 46%;
+  }
+
+  @media only screen and (min-width: 140.5em) {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: $font-primary, sans-serif;
+  font-size: 1.7rem;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+  color: var(--color-primary);
+  position: relative;
+  @media only screen and (max-width: 35em) {
+    background: #F6F9FF;
+}
+  @media only screen and (max-width: 48em) {
+    background: #F6F9FF;
+}
+}
+
+.container {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #082543;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
