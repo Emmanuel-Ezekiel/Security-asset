@@ -499,5 +499,123 @@ main {
         }
     }
 
+    .testimonial_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .testimony {
+            // height: 100%;
+            width: 100%;
+            padding: 0 0.75rem;
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h5 {
+                margin-bottom: 20px;
+                font-size: 2.1428571429rem;
+                font-weight: 300;
+                color: #ffffff;
+            }
+
+            .test_container {
+               
+                // width: 100%;
+                max-width: 750px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                // .arrow {
+                //     position: absolute;
+                //     border-radius: 3px;
+                //     font-size: 50px;
+                //     top: 50%;
+
+                //     // .arrow:hover {
+                //     //     background: #869791;
+                //     //     color: #fff;
+                //     //   }
+                      
+                //       .next {
+                //         right: -100px;
+                //       }
+                      
+                //       .prev {
+                //         left: -800px;
+                //       }
+                //   }
+                  
+                  
+
+                .box {
+                  display: flex;
+                  align-items: center;
+                  flex-direction: column;
+                  
+
+                  .test_info {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    margin-bottom: 1rem;
+
+                    h4 {
+                        font-size: 1.9rem;
+                        color: #ffffff;
+                        margin-top: 10px;
+                    }
+
+                    p {
+                        font-size: 1.7rem;
+                        color: #ffffff;
+                    }
+                  }
+
+                  .test_content {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+
+                    p {
+                        font-size: 1.3rem;
+                        color: #ffffff;
+                        text-align: center;
+                    }
+
+                    .cours_star {
+                        display: flex;
+                    }
+                  }
+                }
+            }
+
+            .activites {
+                margin-top: 60px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid #fd7e14;
+                font-size: 3rem;
+            }
+
+            .table {
+                height: 379px;
+                width: 90%;
+                background-color: #ffffff;
+            }
+
+            .youtube {
+                height: 568px;
+                width: 90%;
+                margin-top: 100px;
+            }
+        }
+    }
+
   
 }

@@ -1,6 +1,8 @@
 import { FaThumbsUp } from 'react-icons/fa';
 import { BsCash } from 'react-icons/bs';
 import { IoArrowRedoSharp } from 'react-icons/io5';
+import { AiFillStar } from 'react-icons/ai';
+import { AiOutlineStar } from 'react-icons/ai';
 
 export const Data = [
     {
@@ -32,5 +34,43 @@ export const Data = [
         image: <FaThumbsUp  color='#ffa800'/>,
         title: "The best experts",
         describe: "The best experts in the cryptotrading branch are managing by your investments, which work for your wellbeing."
+    },
+]
+
+export const Testimonial = [
+    {
+        name: "Catherine Sam",
+        pro: "Nutritionist",
+        starfill: < AiFillStar color="#6993ff"/>,
+        star: <AiOutlineStar/>,
+        content: "Minebest is content to acknowledge crypto capital as our trustworthy partners. The Level of transparency on services and proceeds is top, so we made a recommendation to thousands of our known customers globally.",
+    },
+    {
+        name: "Oxanna Hashley",
+        pro: "Art Director",
+        starfill: < AiFillStar color="#6993ff"/>,
+        star: <AiOutlineStar/>,
+        content: "My staggering account got awakened after a taste of new generation mining and it’s verified Manager.The risk was worth it!",
+    },
+    {
+        name: "Catherine Sam",
+        pro: "-Nutritionist",
+        starfill: < AiFillStar color="#6993ff"/>,
+        star: <AiOutlineStar/>,
+        content: "Minebest is content to acknowledge crypto capital as our trustworthy partners. The Level of transparency on services and proceeds is top, so we made a recommendation to thousands of our known customers globally.",
+    },
+    {
+        name: "Madeleine Brooks",
+        pro: "-Professor",
+        starfill: < AiFillStar color="#6993ff" />,
+        star: <AiOutlineStar/>,
+        content: "OMG, was stunned and triggered at the level of expertise on Crypto Capital.",
+    },
+    {
+        name: "Eyal Avramomich",
+        pro: "-CEO, Minebest",
+        starfill: < AiFillStar color="#6993ff"/>,
+        star: <AiOutlineStar/>,
+        content: "Trading with your Crypto Firm gave me a robust experience with the Pandemic.Can’t keep all good news to my self.",
     },
 ]
