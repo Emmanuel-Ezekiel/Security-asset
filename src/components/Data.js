@@ -3,6 +3,7 @@ import { BsCash } from 'react-icons/bs';
 import { IoArrowRedoSharp } from 'react-icons/io5';
 import { AiFillStar } from 'react-icons/ai';
 import { AiOutlineStar } from 'react-icons/ai';
+import { TfiHandPointRight } from 'react-icons/tfi';
 
 export const Data = [
     {
@@ -73,4 +74,66 @@ export const Testimonial = [
         star: <AiOutlineStar/>,
         content: "Trading with your Crypto Firm gave me a robust experience with the Pandemic.Can’t keep all good news to my self.",
     },
+]
+
+
+export const Bronze_Plan = [
+    {
+        title: "Bronze Plan",
+        price: "$1000",
+        deposits: "10% Deposit Bonus",
+        Risk: "No Risk Free Trade",
+        Train: "No Training",
+        Broker: "Junior Broker",
+        support: "24/7 Support",
+        Bonus: "$50 Registration Bonus",
+        Referral_Bonus: "$50 Referral Bonus",
+        Duration: "Duration 7 Days",
+        icon: <TfiHandPointRight color="#6993ff"/>,
+    }
+]
+export const Silver_Plan = [
+    {
+        title: "Silver Plan",
+        price: "$2000",
+        deposits: "12.5% Deposit Bonus",
+        Risk: "strong> 3X Risk Free Trade",
+        Train: "Preliminary Training",
+        Broker: "Senior Broker",
+        support: "24/7 Support",
+        Bonus: "$50 Registration Bonus",
+        Referral_Bonus: "$50 Referral Bonus",
+        Duration: "Duration 7 Days",
+        icon: <TfiHandPointRight color="#6993ff"/>,
+    }
+]
+export const Gold_Plan = [
+    {
+        title: "Gold Plan",
+        price: "$5000",
+        deposits: "15% Deposit Bonus",
+        Risk: "5x Risk Free Trade",
+        Train: "Expert Training",
+        Broker: "Professional Broker",
+        support: "24/7 Support",
+        Bonus: "$50 Registration Bonus",
+        Referral_Bonus: "$50 Referral Bonus",
+        Duration: "Duration 7 Days",
+        icon: <TfiHandPointRight color="#6993ff"/>,
+    }
+]
+export const Diamond_Plan = [
+    {
+        title: "Diamond Plan",
+        price: "$10000",
+        deposits: "20% Deposit Bonus",
+        Risk: "No Risk Free Trade",
+        Broker: "None",
+        Train: "No Training",
+        support: "24/7 Support",
+        Bonus: "$60 Registration Bonus",
+        Referral_Bonus: "$60 Referral Bonus",
+        Duration: "Duration 7 Days",
+        icon: <TfiHandPointRight color="#6993ff"/>,
+    }
 ]
