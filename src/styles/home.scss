@@ -616,6 +616,55 @@ main {
                 height: 379px;
                 width: 95%;
                 background-color: #ffffff;
+
+                .card-body {
+                    padding: 1.5rem 1.5rem;
+                    flex: 1 1 auto;
+
+                    table {
+                        --bs-table-bg: transparent;
+                        --bs-table-striped-color: #212529;
+                        --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+                        --bs-table-active-color: #212529;
+                        --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+                        --bs-table-hover-color: #212529;
+                        --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+                        width: 100%;
+                        margin-bottom: 1rem;
+                        color: #212529;
+                        vertical-align: top;
+                        border-color: #dee2e6;
+
+                        @media only screen and (max-width: 45em) {
+                           overflow: auto;
+                            
+                         }
+
+
+
+                        thead {
+                            vertical-align: bottom;
+                            border-color: inherit;
+                            border-style: solid;
+                            border-width: 0;
+                            border-bottom: 2px solid #000;
+                        }
+
+                        tbody {
+                            vertical-align: inherit;
+                            border-color: inherit;
+                            border-style: solid;
+                            border-width: 0;
+
+                            td {
+                                padding: 1.5rem;
+                                margin-left: 20px;
+                                text-align: center;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                }
             }
 
             .youtube {
@@ -642,7 +691,7 @@ main {
             justify-content: center;
             width: 100%;
             margin-top: 50px;
-            padding: 0 0.75rem;
+            // padding: 0 0.75rem;
 
             h2 {
                 margin-bottom: 20px;
@@ -659,7 +708,6 @@ main {
                 gap: 15px;
                 @media only screen and (max-width: 45em) {
                     flex-direction: column;
-                    
                  }
 
                 .plan_info_item {
@@ -689,6 +737,15 @@ main {
                             flex-direction: column;
                             justify-content: space-between;
 
+
+                        @media only screen and (max-width: 45em) {
+                            text-align: center;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            margin: auto;
+                          }
+
                             hr {
                                 background-color: #ffa800;
                                 height: 1px;
@@ -697,6 +754,9 @@ main {
                                 margin: 0;
                                 color: #ffffff;
                                 margin-left: 50px;
+                                @media only screen and (max-width: 45em) {
+                                    width: 92%;
+                                  }
                                 
                             }
 

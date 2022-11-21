@@ -4,6 +4,11 @@ import { IoArrowRedoSharp } from 'react-icons/io5';
 import { AiFillStar } from 'react-icons/ai';
 import { AiOutlineStar } from 'react-icons/ai';
 import { TfiHandPointRight } from 'react-icons/tfi';
+import { SlUser } from 'react-icons/sl';
+import { BiBookAlt } from 'react-icons/bi';
+import {HiOutlineUserGroup } from 'react-icons/hi';
+import { GiGlobe } from 'react-icons/gi';
+
 
 export const Data = [
     {
@@ -136,4 +141,36 @@ export const Diamond_Plan = [
         Duration: "Duration 7 Days",
         icon: <TfiHandPointRight color="#6993ff"/>,
     }
+]
+
+
+export const Count = [
+    {
+        id: 1,
+        label: "Consumers",
+        number: "5438",
+        duration: "2",
+        icon: <SlUser color="#fff"/>
+    },
+    {
+        id: 2,
+        label: "Counters",
+        number: "120",
+        duration: "2",
+        icon: < BiBookAlt color="#fff"/>
+    },
+    {
+        id: 3,
+        label: "Industries",
+        number: "7485",
+        duration: "2",
+        icon: <HiOutlineUserGroup  color="#fff"/>
+    },
+    {
+        id: 4,
+        label: "Brands",
+        number: "100",
+        duration: "2",
+        icon: <GiGlobe color="#fff"/>
+    },
 ]

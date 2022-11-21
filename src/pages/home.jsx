@@ -6,6 +6,8 @@ import "../styles/home.scss";
 import Particles from "../components/particles";
 import { Data, Testimonial, Bronze_Plan, Silver_Plan, Gold_Plan,  Diamond_Plan} from "../components/Data";
 import { Fa500Px } from "react-icons/fa";
+import Footer from "../components/footer/footer";
+
 
 const Home = () => {
   const first = Object.assign({}, Testimonial);
@@ -268,7 +270,60 @@ const Home = () => {
             </div>
 
             <h5 className="activites">Activities</h5>
-            <div className="table"></div>
+            <div className="table">
+              <div className="card-body">
+                <table>
+                  <thead>
+                    <tr>
+                      <th scope="col">Date</th>
+                      <th scope="col">Amount</th>
+                      <th scope="col">Mode</th>
+                      <th scope="col">Status</th>
+                      <th scope="col">Type</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+										<td>2022-11-25 11:24:33</td>
+										<td>$100.00</td>
+										<td>bitcoin</td>
+										<td>processed</td>
+										<td>Deposit</td>
+									</tr>
+                  <tr>
+										<td>2022-11-09 11:41:28</td>
+										<td>$100.00</td>
+										<td>12</td>
+										<td>processed</td>
+										<td>Deposit</td>
+									</tr>
+                  <tr>
+										<td>2022-10-15 11:42:17</td>
+										<td>$100.00</td>
+										<td>1</td>
+										<td>processed</td>
+										<td>Deposit</td>
+									</tr>
+                  <tr>
+										<td>2022-09-02 13:00:49</td>
+										<td>$500.00</td>
+										<td>Bitcoin</td>
+										<td>processed</td>
+										<td>Deposit</td>
+									</tr>
+                  <tr>
+										<td>2022-08-04 07:18:01</td>
+										<td>$2000.00</td>
+										<td>Deposit</td>
+										<td>processed</td>
+										<td>Deposit</td>
+									</tr>
+
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
             <div className="youtube">
               <iframe
                 width="100%"
@@ -515,6 +570,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <Footer/>
       </main>
       <Particles id="tsparticles" />
     </>
